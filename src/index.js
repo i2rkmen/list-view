@@ -12,7 +12,7 @@ ReactDOM.render(
 
 //function to delay fetch responses 
 if (process.env.NODE_ENV === 'development') {
-  const delay = 2000;
+  const delay = 0;
   let oldFetch = fetch;
 
   // eslint-disable-next-line
