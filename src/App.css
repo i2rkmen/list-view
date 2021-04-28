@@ -1,0 +1,25 @@
+.App {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+.list-view{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.list-view-content{
+  text-align: left;
+  width: 80%;
+}
+
+.list-view-content h1{
+  text-align: center;
+}
+
+.list-item:hover{
+  background: cyan;
+  border-radius: 6px;
+  padding: 3px;
+}
